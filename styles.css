@@ -297,7 +297,7 @@ h5,
   }
   
   .active {
-    background-color: #1e2273;
+    background-color: #119c72;
   }
 
   .blue {
@@ -318,7 +318,7 @@ h5,
   }
 
   section#work {
-    background:#29c1fdc2;
+    background:#33e98ee7;
     color: #ffffff;
     --color-accent: #2e8b57;
   }
@@ -396,19 +396,19 @@ body#home {
 body#about {
   ackground: radial-gradient( circle 382px at 50% 50.2%,  rgb(31, 13, 169) 0.1%, rgb(9, 1, 50) 100.2% ) fixed;
   text-shadow: 2px 2px #000000;
-  background-color: rgb(86, 79, 79);
+  background-color: #33e98ee7;
 }
 
 body#news {
   /* background: radial-gradient( circle 382px at 50% 50.2%,  rgb(63, 22, 97) 0.1%, rgba(3,1,50,1) 100.2% ) fixed; */
   text-shadow: 2px 2px #000000;
-  background-color: #3e2894;
+  background-color: #33e98ee7;
 }
 
 body#contact {
   /* background: radial-gradient( circle 382px at 50% 50.2%,  rgb(201, 201, 201) 0.1%, rgba(3,1,50,1) 100.2% ) fixed; */
   text-shadow: 2px 2px #000000;
-  background: #17947f;
+  background: #09a758e7;
 }
 
 body#portfolio {
@@ -597,7 +597,7 @@ section#form {
   display: flex;
   padding: var(--space-3xl) 0;
   /* border: 3px solid goldenrod; */
-  background-color: rgb(218, 99, 30);
+  background-color: #2F2F2F;
   color: white;
   text-align: center;
 }
