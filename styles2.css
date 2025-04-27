@@ -1,4 +1,4 @@
-body {
+body#catalogo {
     font-family: Arial,sans-serif;
     margin: 20px;
 }
@@ -12,6 +12,7 @@ h1 {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    border: 1px solid black;
 }
 
 .produto {
@@ -30,4 +31,8 @@ h1 {
     max-height: 150px;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.text_center {
+    text-align: center;
 }

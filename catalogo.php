@@ -6,8 +6,8 @@
         <title>Cadastro de produtos</title>
         <link rel="stylesheet" href="styles2.css">
     </head>
-    <body>
-        <div>
+    <body id="catalogo">
+        <div class="container">
             <h2 class="h2 text_center">Catálogo de Produtos</h2>    
             <?php
                 if (file_exists("produtos.txt")) {
