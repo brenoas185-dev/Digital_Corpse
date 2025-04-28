@@ -1,6 +1,11 @@
+img,
+figure {
+    width: 100%;
+    display: block;
+}
+
 body#catalogo {
     font-family: Arial,sans-serif;
-    margin: 20px;
 }
 
 h1 {
@@ -13,6 +18,13 @@ h1 {
     gap: 20px;
     justify-content: center;
     border: 1px solid black;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    overflow: scroll;
+    max-height: 500px;
+    scrollbar-width: 100px;
+    margin: auto;
 }
 
 .produto {
@@ -33,6 +45,28 @@ h1 {
     border-radius: 5px;
 }
 
-.text_center {
+.text_centro {
     text-align: center;
+    margin: 20px;
+}
+
+caixa {
+    width: 90%;
+    border: 3px solid rgb(255, 0, 0);
+    align-self: center;
+    margin-bottom: 40px;
+    height: 90%;
+}
+
+/* .grade  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    gap: 10px;
+    border: 3px solid salmon;
+    height: 1920px;
+} */
+
+.margin {
+    margin-top: 20px;
 }
