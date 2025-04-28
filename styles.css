@@ -274,9 +274,14 @@ h5,
 
 
 
-  @media screen and (max-width: 523px) {
+  @media screen and (max-width: 600px) {
     .site_header_nav li {
       float: none;
+    }
+    .site_header { 
+  
+      position: relative;
+
     }
   }
 
