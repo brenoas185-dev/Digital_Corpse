@@ -650,7 +650,7 @@ section#sobre {
   justify-content: center;
   grid-gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 200px);
+  grid-template-rows: repeat(1, 230px);
   margin: auto;
   max-width: 90%;
   padding: var(--space-2xl) 20px;
@@ -667,7 +667,7 @@ section#sobre {
     margin: auto;
     width: 50%;
     height: 50%;
-    position: relative;
+    max-height: 280px;
   }
   .testo {
     font-size: 20px;
@@ -678,15 +678,16 @@ section#sobre {
 
 .foto {
   border: 3px solid rgb(0, 0, 0);
-  border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #000000;
   color: #fff;
   border-radius: 30px;
-  width: 400px;
+  width: 300px;
   height: 300px;
   object-fit: cover;
+  object-position: center;
   margin: auto;
+
 }
 
 .about_img {
@@ -716,4 +717,8 @@ section#sobre {
 
 .preto {
   text-shadow: 2px 2px black;
+}
+
+.h6 {
+  font-size: 23px;
 }
