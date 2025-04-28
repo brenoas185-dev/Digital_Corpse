@@ -707,7 +707,7 @@ section#sobre {
 }
 
 .header-home{
-  background: linear-gradient(  #2F2F2F, #2f2f2f00),  url(assets/images/Imagem\ de\ fundo\ Home.jpg) no-repeat;
+  background:url(assets/images/Imagem\ de\ fundo\ Home.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   position: top;
