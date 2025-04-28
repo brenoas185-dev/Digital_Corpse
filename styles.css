@@ -706,3 +706,9 @@ section#sobre {
 .bloco {
   margin-top: 20px;
 }
+
+.header-home{
+  background: url(assets/images/Imagem\ de\ fundo\ Home.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
