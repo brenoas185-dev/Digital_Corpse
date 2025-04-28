@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <a href="catalogo.php">Ver catalogo</a>
+        Ver catalogo<a href="catalogo.php"></a>
         <?php
             $nome2 = $_POST["nome2"];
             $descricao2 = $_POST["descricao2"];
@@ -15,10 +15,10 @@
             $quantidade2 = $_POST["quantidade2"];
 
             $nomeImagem2 = basename($_FILES["imagem2"]["name"]);
-            $caminho2 = "imgDB2/" . $nomeImagem2;
+            $caminho2 = "imgDB/" . $nomeImagem2;
 
-            if(!is_dir("imgDB2")) {
-                mkdir("imgDB2");
+            if(!is_dir("imgDB")) {
+                mkdir("imgDB");
             }
 
             if(move_uploaded_file($_FILES["imagem2"]["tmp_name"], $caminho2)) {

@@ -1,6 +1,5 @@
-item|muito gostoso|alo|eu|Digital_Corpse.png
-Computador |Iradasso|uma pechincha|corre que tá acabando|Image 26 de abr. de 2025, 19_12_33.png
-Computador |Iradasso|uma pechincha|corre que tá acabando|Image 26 de abr. de 2025, 19_12_33.png
-Computador |Iradasso|uma pechincha|corre que tá acabando|Image 26 de abr. de 2025, 19_12_33.png
-Computador |Iradasso|uma pechincha|corre que tá acabando|Image 26 de abr. de 2025, 19_12_33.png
-test|test|test|test|franklin institute.jpg
+Computador Gamer|Intel Core i5-12400F, 16GB 3200Mhz RGB, SSD NVME 480GB, Placa de Vídeo RTX 4060 8GB, Fonte 600W, Gabinete Aquario|5.899,00 |10|Computador1.jpg
+Computador Gamer Completo |RGB Intel Core i5 8GB SSD 480GB Kit Gamer com Headset Monitor 20" Windows 10 3green Premium |1.629,00|18|Computador2.jpg
+Computador Gamer Completo |I5 16gb Ssd 480gb + Monitor 19 + Tec/mouse Gamer|1.537,00|+50|Computador3.jpg
+Computador Gamer|Intel® Core™ I5, 8GB, SSD 240GB|1.299,90|+50|Computador4.jpg
+Computador Gamer Completo| Ryzen 5 5600GT, 16GB 3200Mhz, (Radeon Vega 7 Integrado), A520M, SSD 480GB M.2, 500W 80 Plus, 3 fans, Neologic - NLI89023|3.399,90|9|Computador5.jpg

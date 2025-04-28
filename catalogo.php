@@ -7,22 +7,22 @@
         <link rel="stylesheet" href="styles2.css">
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body id="work">
-        <header class="site_header">
+    <body id="portfolio">
+        <header class="site_header preto">
             <div>
                 <nav class="site_header_nav sidebar">
                     <ul role="list">
-                        <li><a class="active black" href="index.html">HOME</a></li>
+                        <li><a href="index.html">HOME</a></li>
                         <li><a href="sobre.html">SOBRE</a></li>
-                        <li><a href="catalogo.php">PRODUTOS</a></li>
-                        <li><a href="novidades.html">NOVIDADES</a></li>
+                        <li><a class="active" href="catalogo.php">PRODUTOS</a></li>
+                        <li><a href="novidades.php">NOVIDADES</a></li>
                         <li><a href="contato.html">CONTATO</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <div>
-            <section id="header" class="header">
+            <section id="header" class="header preto">
                     <div class="wrapper">
                         <div class="left-di">
                             <h2 class="left_text" style="float: left;">Produtos</h2>
@@ -33,10 +33,10 @@
                     </div>
             </section>
         </div>
-        <h2 class="h2 text_centro">Catálogo de Produtos</h2>    
+        <h2 class="h2 text_centro white">Catálogo de Produtos</h2>    
         <div class="grade">
             <div>
-                <h4 class="text_centro">Computadores</h4>
+                <h4 class="text_centro white">Computadores</h4>
                 <?php
                     if (file_exists("produtos.txt")) {
                         $linhas = file("produtos.txt");
@@ -59,7 +59,7 @@
                 ?>
             </div>
             <div>
-                <h4 class="text_centro">Periféricos</h4>
+                <h4 class="text_centro white">Periféricos</h4>
                 <?php
                     if (file_exists("produtos2.txt")) {
                         $linhas2 = file("produtos2.txt");
@@ -83,7 +83,7 @@
             </div>    
         </div>
         <footer>
-                <section id="footer" class="margin">
+                <section id="footer" class="margin preto">
                 <div class="wrapper_inner">
                     <div class="text_right white">
                     <p>&copy; 2025 Digital Corpse</p>

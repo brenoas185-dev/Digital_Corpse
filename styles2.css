@@ -18,12 +18,16 @@ h1 {
     gap: 20px;
     justify-content: center;
     border: 1px solid black;
-    width: 80%;
+    width: 90%;
     border-radius: 20px;
     margin-bottom: 40px;
     overflow: scroll;
-    max-height: 500px;
+    max-height: auto;
     margin: auto;
+    background: linear-gradient(  #2F2F2F, #2f2f2f00),  url(assets/images/Imagem\ de\ fundo\ Home.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: var(--space-s);
 }
 
 .produto {
@@ -33,8 +37,20 @@ h1 {
     width: 200px;
     box-shadow: 0 0 5px #ccc;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
+
+
+.produto2 {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+    background-color: #ffffff;
+}
+
 
 .produto img {
     width: 100%;
@@ -68,4 +84,10 @@ caixa {
 
 .margin {
     margin-top: 20px;
+}
+
+.preto {
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
 }

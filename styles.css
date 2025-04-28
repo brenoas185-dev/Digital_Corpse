@@ -226,9 +226,9 @@ h5,
     margin: 0px;
     background-color: #1b1b1b;
     padding: 0px 0px;
-    /* position: fixed;
+    position: fixed;
     top: 0;
-    width: 100%; */
+    width: 100%;
   }
 
   .site_header_nav ul li a {
@@ -254,15 +254,15 @@ h5,
   }
   
   section#hero {
-    ackground: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
-      url("assets/images/background.jpg") no-repeat;
+    /* ackground: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)), */
+      /* url("assets/images/background.jpg") no-repeat; */
     padding-bottom: 10px;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
     color: #fafafa;
     --color-accent: #8a2be2;
-    ackground-color: #0000001f;
+    /* ackground-color: #0000001f; */
   }
 
   /* Change the link color on hover */
@@ -291,7 +291,7 @@ h5,
     text-align: center;
     padding: 15px;
     text-decoration: none;
-    order-right: 0.5px solid #fff;
+    /* order-right: 0.5px solid #fff; */
     color: white;
   }
 
@@ -394,13 +394,13 @@ body {
 body#home {
   /* background: radial-gradient( circle 382px at 50% 50.2%,  rgb(41, 42, 117) 0.1%, rgba(3,1,50,1) 100.2% ) fixed;
   text-shadow: 2px 2px #000000; */
-  background-color: rgb(86, 79, 79);
+  background-color: #121413;
 }
 
 body#about {
-  ackground: radial-gradient( circle 382px at 50% 50.2%,  rgb(31, 13, 169) 0.1%, rgb(9, 1, 50) 100.2% ) fixed;
+  /* ackground: radial-gradient( circle 382px at 50% 50.2%,  rgb(31, 13, 169) 0.1%, rgb(9, 1, 50) 100.2% ) fixed; */
   /* text-shadow: 2px 2px #000000; */
-  background-color: rgb(86, 79, 79);
+  background-color: #4dc480;
 }
 
 body#news {
@@ -412,12 +412,12 @@ body#news {
 body#contact {
   /* background: radial-gradient( circle 382px at 50% 50.2%,  rgb(201, 201, 201) 0.1%, rgba(3,1,50,1) 100.2% ) fixed; */
   /* text-shadow: 2px 2px #000000; */
-  background: #17947f;
+  background-color: #4dc480;
 }
 
 body#portfolio {
-  background: radial-gradient( circle 382px at 50% 50.2%,  rgb(101, 56, 137) 0.1%, rgba(3,1,50,1) 100.2% ) fixed;
-  /* text-shadow: 2px 2px #000000; */
+  background-color: #4dc480;
+  font-family: Arial,sans-serif;
 }
 
 
@@ -585,8 +585,8 @@ background-size: cover;
 }
 
 .con_list a {
-  text-decoration: none;
-  color: rgb(140, 255, 24);
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
 }
 section#form {
   color: white;
@@ -706,7 +706,14 @@ section#sobre {
 }
 
 .header-home{
-  background: url(assets/images/Imagem\ de\ fundo\ Home.jpg) no-repeat;
+  background: linear-gradient(  #2F2F2F, #2f2f2f00),  url(assets/images/Imagem\ de\ fundo\ Home.jpg) no-repeat;
   background-position: center;
   background-size: cover;
+  position: top;
+  top: 0;
+  text-shadow:  2px 4px 2px #000000;
+}
+
+.preto {
+  text-shadow: 2px 2px black;
 }
