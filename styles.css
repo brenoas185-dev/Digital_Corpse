@@ -226,6 +226,9 @@ h5,
     margin: 0px;
     background-color: #1b1b1b;
     padding: 0px 0px;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
   }
 
   .site_header_nav ul li a {
@@ -263,9 +266,9 @@ h5,
   }
 
   /* Change the link color on hover */
- 
- .site_header_nav li {
-    float: left;
+
+.site_header_nav li {
+    float:  left;
     transition: all 0.3s;
   }
 
@@ -285,11 +288,11 @@ h5,
 
   .site_header_nav a {
     display: block;
-    color: white;
     text-align: center;
     padding: 15px;
     text-decoration: none;
     order-right: 0.5px solid #fff;
+    color: white;
   }
 
   .site_header_nav li a:hover:not(.active) {
@@ -297,7 +300,7 @@ h5,
   }
   
   .active {
-    background-color: #119c72;
+    background-color: #4dc480;
   }
 
   .blue {
@@ -348,10 +351,10 @@ h5,
   }
 
   section#footer {
-    ackground: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9));
     width: 100%;
     padding: var(--space-s);
-    position: bottom;
+    /* position: bottom;
+    bottom: 0; */
     background-color: #0000002f;
   }
 
@@ -383,37 +386,38 @@ body {
   padding:0;
 }
 
-#complete {
+/* #complete {
    height:100%;
    width:100%; 
-}
+} */
 
 body#home {
-  background: radial-gradient( circle 382px at 50% 50.2%,  rgb(41, 42, 117) 0.1%, rgba(3,1,50,1) 100.2% ) fixed;
-  text-shadow: 2px 2px #000000;
+  /* background: radial-gradient( circle 382px at 50% 50.2%,  rgb(41, 42, 117) 0.1%, rgba(3,1,50,1) 100.2% ) fixed;
+  text-shadow: 2px 2px #000000; */
+  background-color: rgb(86, 79, 79);
 }
 
 body#about {
   ackground: radial-gradient( circle 382px at 50% 50.2%,  rgb(31, 13, 169) 0.1%, rgb(9, 1, 50) 100.2% ) fixed;
-  text-shadow: 2px 2px #000000;
-  background-color: #33e98ee7;
+  /* text-shadow: 2px 2px #000000; */
+  background-color: rgb(86, 79, 79);
 }
 
 body#news {
   /* background: radial-gradient( circle 382px at 50% 50.2%,  rgb(63, 22, 97) 0.1%, rgba(3,1,50,1) 100.2% ) fixed; */
-  text-shadow: 2px 2px #000000;
-  background-color: #33e98ee7;
+  /* text-shadow: 2px 2px #000000; */
+  background-color: #3e2894;
 }
 
 body#contact {
   /* background: radial-gradient( circle 382px at 50% 50.2%,  rgb(201, 201, 201) 0.1%, rgba(3,1,50,1) 100.2% ) fixed; */
-  text-shadow: 2px 2px #000000;
-  background: #33e98ee7;
+  /* text-shadow: 2px 2px #000000; */
+  background: #17947f;
 }
 
 body#portfolio {
   background: radial-gradient( circle 382px at 50% 50.2%,  rgb(101, 56, 137) 0.1%, rgba(3,1,50,1) 100.2% ) fixed;
-  text-shadow: 2px 2px #000000;
+  /* text-shadow: 2px 2px #000000; */
 }
 
 
@@ -702,4 +706,3 @@ section#sobre {
 .bloco {
   margin-top: 20px;
 }
-

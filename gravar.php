@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <p>Produto cadastrado com sucesso</p>
         <a href="catalogo.php">Ver catalogo</a>
         <?php
             $nome = $_POST["nome"];
