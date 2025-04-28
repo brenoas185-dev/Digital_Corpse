@@ -635,25 +635,25 @@ section#sobre {
 
 .testo {
   /* border: 3px solid rgb(0, 51, 255); */
-  display: inline-block;
+  /* display: inline-block; */
   /* background-color: rgb(255, 255, 255); */
-  margin: auto;
   width: 100%;
   color: white;
-  float: right;
+  float: left;
   text-align: left;
-  margin-left: 10px;
+  overflow: auto;
 }
 
 .cartao {
   border: 3px solid rgb(0, 0, 0);
   display: grid;
-  grid-gap: 1rem;
+  justify-content: center;
+  grid-gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 200px);
-  margin: 0 auto;
+  margin: auto;
   max-width: 90%;
-  padding: var(--space-xl) 20px;
+  padding: var(--space-2xl) 20px;
   border-radius: 30px;
   background-color: #00000023;
   margin-top: 40px;
@@ -670,8 +670,9 @@ section#sobre {
     position: relative;
   }
   .testo {
-    margin-top: 40px;
     font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
   }
 }
 
@@ -680,15 +681,12 @@ section#sobre {
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #000000;
-  margin-left: 4%;
-  margin-right: 8%;
   color: #fff;
   border-radius: 30px;
-  width: 300px;
-  height: 260px;
+  width: 400px;
+  height: 300px;
   object-fit: cover;
-  display: inline;
-  margin-top:  20px;
+  margin: auto;
 }
 
 .about_img {

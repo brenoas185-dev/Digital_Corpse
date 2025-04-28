@@ -23,7 +23,6 @@ h1 {
     margin-bottom: 40px;
     overflow: scroll;
     max-height: 500px;
-    scrollbar-width: 100px;
     margin: auto;
 }
 
